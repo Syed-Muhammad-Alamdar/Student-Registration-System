@@ -1,0 +1,101 @@
+li{
+    list-style-type: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MAIN TITLE */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* LABELS */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    width: 300px;
+    text-align: left;
+    color: #34495e;
+}
+
+/* INPUTS */
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52,152,219,0.3);
+}
+
+/* BUTTON */
+button {
+    width: 320px;
+    padding: 12px;
+    background: linear-gradient(135deg, #4a90e2, #357abd);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.03);
+    background: linear-gradient(135deg, #357abd, #2c5aa0);
+}
+
+/* OUTPUT AREA TITLE */
+#h1-1 {
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+/* STUDENT LIST BOX */
+#ul {
+    width: 350px;
+    margin-top: 10px;
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* EACH STUDENT BLOCK */
+#ul h1 {
+    font-size: 18px;
+    color: #2980b9;
+    margin-top: 15px;
+}
+
+/* LIST ITEMS */
+#ul li {
+    list-style: none;
+    padding: 5px 0;
+    color: #2c3e50;
+}
+
+/* SEPARATOR */
+#ul hr {
+    border: none;
+    height: 1px;
+    background: #eee;
+    margin: 10px 0;
+}
